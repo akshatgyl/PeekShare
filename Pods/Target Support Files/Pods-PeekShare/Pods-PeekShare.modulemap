@@ -1,0 +1,6 @@
+framework module Pods_PeekShare {
+  umbrella header "Pods-PeekShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

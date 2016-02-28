@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690F85921C7FE6B50079992F /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F85911C7FE6B50079992F /* PostViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		690F85951C8147560079992F /* PeekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F85941C8147560079992F /* PeekCell.swift */; settings = {ASSET_TAGS = (); }; };
+		690F85971C822E950079992F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F85961C822E950079992F /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		690F85991C8267FC0079992F /* nature.gif in Resources */ = {isa = PBXBuildFile; fileRef = 690F85981C8267FB0079992F /* nature.gif */; settings = {ASSET_TAGS = (); }; };
+		694BEE941C7CF38D00B69732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694BEE931C7CF38D00B69732 /* AppDelegate.swift */; };
+		694BEE991C7CF38D00B69732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694BEE971C7CF38D00B69732 /* Main.storyboard */; };
+		694BEE9C1C7CF38D00B69732 /* PeekShare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 694BEE9A1C7CF38D00B69732 /* PeekShare.xcdatamodeld */; };
+		694BEE9E1C7CF38D00B69732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694BEE9D1C7CF38D00B69732 /* Assets.xcassets */; };
+		694BEEA11C7CF38D00B69732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694BEE9F1C7CF38D00B69732 /* LaunchScreen.storyboard */; };
+		694BEEAC1C7CF38D00B69732 /* PeekShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694BEEAB1C7CF38D00B69732 /* PeekShareTests.swift */; };
+		694BEEB71C7CF38D00B69732 /* PeekShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694BEEB61C7CF38D00B69732 /* PeekShareUITests.swift */; };
+		697376591C836B45005B9573 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697376581C836B45005B9573 /* UserViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		69EA00181C7D030E001FAACD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EA00171C7D030E001FAACD /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		69EA001B1C7D088F001FAACD /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EA001A1C7D088F001FAACD /* TimeLineViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		69EA00231C7D1481001FAACD /* UserMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EA00221C7D1481001FAACD /* UserMedia.swift */; settings = {ASSET_TAGS = (); }; };
+		B63D5637C4A13A2F00D44F3F /* Pods_PeekShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D18CA1204272A08C5FA467 /* Pods_PeekShare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		694BEEA81C7CF38D00B69732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 694BEE881C7CF38D00B69732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 694BEE8F1C7CF38D00B69732;
+			remoteInfo = PeekShare;
+		};
+		694BEEB31C7CF38D00B69732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 694BEE881C7CF38D00B69732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 694BEE8F1C7CF38D00B69732;
+			remoteInfo = PeekShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D18CA1204272A08C5FA467 /* Pods_PeekShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeekShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFD40DB5275E1F55F15EF76 /* Pods-PeekShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeekShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeekShare/Pods-PeekShare.release.xcconfig"; sourceTree = "<group>"; };
+		0E2B03BF34DBC718EB1F04EE /* Pods-PeekShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeekShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeekShare/Pods-PeekShare.debug.xcconfig"; sourceTree = "<group>"; };
+		690F85911C7FE6B50079992F /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		690F85941C8147560079992F /* PeekCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekCell.swift; sourceTree = "<group>"; };
+		690F85961C822E950079992F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		690F85981C8267FB0079992F /* nature.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = nature.gif; path = Assets.xcassets/nature.dataset/nature.gif; sourceTree = "<group>"; };
+		694BEE901C7CF38D00B69732 /* PeekShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeekShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		694BEE931C7CF38D00B69732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		694BEE981C7CF38D00B69732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		694BEE9B1C7CF38D00B69732 /* PeekShare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeekShare.xcdatamodel; sourceTree = "<group>"; };
+		694BEE9D1C7CF38D00B69732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		694BEEA01C7CF38D00B69732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		694BEEA21C7CF38D00B69732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694BEEA71C7CF38D00B69732 /* PeekShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		694BEEAB1C7CF38D00B69732 /* PeekShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekShareTests.swift; sourceTree = "<group>"; };
+		694BEEAD1C7CF38D00B69732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694BEEB21C7CF38D00B69732 /* PeekShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		694BEEB61C7CF38D00B69732 /* PeekShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekShareUITests.swift; sourceTree = "<group>"; };
+		694BEEB81C7CF38D00B69732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697376581C836B45005B9573 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		69EA00171C7D030E001FAACD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		69EA001A1C7D088F001FAACD /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		69EA00221C7D1481001FAACD /* UserMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMedia.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		694BEE8D1C7CF38D00B69732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63D5637C4A13A2F00D44F3F /* Pods_PeekShare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694BEEA41C7CF38D00B69732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694BEEAF1C7CF38D00B69732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15E52C3ABC6459C0BF908D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02D18CA1204272A08C5FA467 /* Pods_PeekShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		690F85931C81473A0079992F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				690F85941C8147560079992F /* PeekCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		694BEE871C7CF38C00B69732 = {
+			isa = PBXGroup;
+			children = (
+				694BEE921C7CF38D00B69732 /* PeekShare */,
+				694BEEAA1C7CF38D00B69732 /* PeekShareTests */,
+				694BEEB51C7CF38D00B69732 /* PeekShareUITests */,
+				694BEE911C7CF38D00B69732 /* Products */,
+				930D9B66040D6BA995E9B31A /* Pods */,
+				15E52C3ABC6459C0BF908D0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		694BEE911C7CF38D00B69732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				694BEE901C7CF38D00B69732 /* PeekShare.app */,
+				694BEEA71C7CF38D00B69732 /* PeekShareTests.xctest */,
+				694BEEB21C7CF38D00B69732 /* PeekShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		694BEE921C7CF38D00B69732 /* PeekShare */ = {
+			isa = PBXGroup;
+			children = (
+				690F85931C81473A0079992F /* Views */,
+				69EA00211C7D1471001FAACD /* Models */,
+				69EA00191C7D081F001FAACD /* ViewControllers */,
+				694BEE931C7CF38D00B69732 /* AppDelegate.swift */,
+				690F85981C8267FB0079992F /* nature.gif */,
+				694BEE971C7CF38D00B69732 /* Main.storyboard */,
+				694BEE9D1C7CF38D00B69732 /* Assets.xcassets */,
+				694BEE9F1C7CF38D00B69732 /* LaunchScreen.storyboard */,
+				694BEEA21C7CF38D00B69732 /* Info.plist */,
+				694BEE9A1C7CF38D00B69732 /* PeekShare.xcdatamodeld */,
+			);
+			path = PeekShare;
+			sourceTree = "<group>";
+		};
+		694BEEAA1C7CF38D00B69732 /* PeekShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				694BEEAB1C7CF38D00B69732 /* PeekShareTests.swift */,
+				694BEEAD1C7CF38D00B69732 /* Info.plist */,
+			);
+			path = PeekShareTests;
+			sourceTree = "<group>";
+		};
+		694BEEB51C7CF38D00B69732 /* PeekShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				694BEEB61C7CF38D00B69732 /* PeekShareUITests.swift */,
+				694BEEB81C7CF38D00B69732 /* Info.plist */,
+			);
+			path = PeekShareUITests;
+			sourceTree = "<group>";
+		};
+		69EA00191C7D081F001FAACD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				69EA00171C7D030E001FAACD /* LoginViewController.swift */,
+				69EA001A1C7D088F001FAACD /* TimeLineViewController.swift */,
+				690F85911C7FE6B50079992F /* PostViewController.swift */,
+				690F85961C822E950079992F /* SignUpViewController.swift */,
+				697376581C836B45005B9573 /* UserViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		69EA00211C7D1471001FAACD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69EA00221C7D1481001FAACD /* UserMedia.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		930D9B66040D6BA995E9B31A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E2B03BF34DBC718EB1F04EE /* Pods-PeekShare.debug.xcconfig */,
+				0CFD40DB5275E1F55F15EF76 /* Pods-PeekShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		694BEE8F1C7CF38D00B69732 /* PeekShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694BEEBB1C7CF38D00B69732 /* Build configuration list for PBXNativeTarget "PeekShare" */;
+			buildPhases = (
+				60EC8714825AE7BAAEB4D833 /* Check Pods Manifest.lock */,
+				694BEE8C1C7CF38D00B69732 /* Sources */,
+				694BEE8D1C7CF38D00B69732 /* Frameworks */,
+				694BEE8E1C7CF38D00B69732 /* Resources */,
+				2937E923E26FE0DCE09EDF48 /* Embed Pods Frameworks */,
+				2A82CEC719A580B0AA06BFC0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeekShare;
+			productName = PeekShare;
+			productReference = 694BEE901C7CF38D00B69732 /* PeekShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		694BEEA61C7CF38D00B69732 /* PeekShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694BEEBE1C7CF38D00B69732 /* Build configuration list for PBXNativeTarget "PeekShareTests" */;
+			buildPhases = (
+				694BEEA31C7CF38D00B69732 /* Sources */,
+				694BEEA41C7CF38D00B69732 /* Frameworks */,
+				694BEEA51C7CF38D00B69732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				694BEEA91C7CF38D00B69732 /* PBXTargetDependency */,
+			);
+			name = PeekShareTests;
+			productName = PeekShareTests;
+			productReference = 694BEEA71C7CF38D00B69732 /* PeekShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		694BEEB11C7CF38D00B69732 /* PeekShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694BEEC11C7CF38D00B69732 /* Build configuration list for PBXNativeTarget "PeekShareUITests" */;
+			buildPhases = (
+				694BEEAE1C7CF38D00B69732 /* Sources */,
+				694BEEAF1C7CF38D00B69732 /* Frameworks */,
+				694BEEB01C7CF38D00B69732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				694BEEB41C7CF38D00B69732 /* PBXTargetDependency */,
+			);
+			name = PeekShareUITests;
+			productName = PeekShareUITests;
+			productReference = 694BEEB21C7CF38D00B69732 /* PeekShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		694BEE881C7CF38D00B69732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = akshat;
+				TargetAttributes = {
+					694BEE8F1C7CF38D00B69732 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JTG9T7N598;
+					};
+					694BEEA61C7CF38D00B69732 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 694BEE8F1C7CF38D00B69732;
+					};
+					694BEEB11C7CF38D00B69732 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 694BEE8F1C7CF38D00B69732;
+					};
+				};
+			};
+			buildConfigurationList = 694BEE8B1C7CF38D00B69732 /* Build configuration list for PBXProject "PeekShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 694BEE871C7CF38C00B69732;
+			productRefGroup = 694BEE911C7CF38D00B69732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				694BEE8F1C7CF38D00B69732 /* PeekShare */,
+				694BEEA61C7CF38D00B69732 /* PeekShareTests */,
+				694BEEB11C7CF38D00B69732 /* PeekShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		694BEE8E1C7CF38D00B69732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694BEEA11C7CF38D00B69732 /* LaunchScreen.storyboard in Resources */,
+				690F85991C8267FC0079992F /* nature.gif in Resources */,
+				694BEE9E1C7CF38D00B69732 /* Assets.xcassets in Resources */,
+				694BEE991C7CF38D00B69732 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694BEEA51C7CF38D00B69732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694BEEB01C7CF38D00B69732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2937E923E26FE0DCE09EDF48 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeekShare/Pods-PeekShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A82CEC719A580B0AA06BFC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeekShare/Pods-PeekShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60EC8714825AE7BAAEB4D833 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		694BEE8C1C7CF38D00B69732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690F85951C8147560079992F /* PeekCell.swift in Sources */,
+				697376591C836B45005B9573 /* UserViewController.swift in Sources */,
+				690F85921C7FE6B50079992F /* PostViewController.swift in Sources */,
+				690F85971C822E950079992F /* SignUpViewController.swift in Sources */,
+				69EA00181C7D030E001FAACD /* LoginViewController.swift in Sources */,
+				69EA001B1C7D088F001FAACD /* TimeLineViewController.swift in Sources */,
+				694BEE941C7CF38D00B69732 /* AppDelegate.swift in Sources */,
+				69EA00231C7D1481001FAACD /* UserMedia.swift in Sources */,
+				694BEE9C1C7CF38D00B69732 /* PeekShare.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694BEEA31C7CF38D00B69732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694BEEAC1C7CF38D00B69732 /* PeekShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694BEEAE1C7CF38D00B69732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694BEEB71C7CF38D00B69732 /* PeekShareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		694BEEA91C7CF38D00B69732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 694BEE8F1C7CF38D00B69732 /* PeekShare */;
+			targetProxy = 694BEEA81C7CF38D00B69732 /* PBXContainerItemProxy */;
+		};
+		694BEEB41C7CF38D00B69732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 694BEE8F1C7CF38D00B69732 /* PeekShare */;
+			targetProxy = 694BEEB31C7CF38D00B69732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		694BEE971C7CF38D00B69732 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				694BEE981C7CF38D00B69732 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		694BEE9F1C7CF38D00B69732 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				694BEEA01C7CF38D00B69732 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		694BEEB91C7CF38D00B69732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		694BEEBA1C7CF38D00B69732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		694BEEBC1C7CF38D00B69732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2B03BF34DBC718EB1F04EE /* Pods-PeekShare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PeekShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshat.com.PeekShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		694BEEBD1C7CF38D00B69732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFD40DB5275E1F55F15EF76 /* Pods-PeekShare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PeekShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshat.com.PeekShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		694BEEBF1C7CF38D00B69732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeekShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshat.com.PeekShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeekShare.app/PeekShare";
+			};
+			name = Debug;
+		};
+		694BEEC01C7CF38D00B69732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeekShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshat.com.PeekShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeekShare.app/PeekShare";
+			};
+			name = Release;
+		};
+		694BEEC21C7CF38D00B69732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeekShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshat.com.PeekShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeekShare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		694BEEC31C7CF38D00B69732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeekShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = akshat.com.PeekShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeekShare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		694BEE8B1C7CF38D00B69732 /* Build configuration list for PBXProject "PeekShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694BEEB91C7CF38D00B69732 /* Debug */,
+				694BEEBA1C7CF38D00B69732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		694BEEBB1C7CF38D00B69732 /* Build configuration list for PBXNativeTarget "PeekShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694BEEBC1C7CF38D00B69732 /* Debug */,
+				694BEEBD1C7CF38D00B69732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		694BEEBE1C7CF38D00B69732 /* Build configuration list for PBXNativeTarget "PeekShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694BEEBF1C7CF38D00B69732 /* Debug */,
+				694BEEC01C7CF38D00B69732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		694BEEC11C7CF38D00B69732 /* Build configuration list for PBXNativeTarget "PeekShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694BEEC21C7CF38D00B69732 /* Debug */,
+				694BEEC31C7CF38D00B69732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		694BEE9A1C7CF38D00B69732 /* PeekShare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				694BEE9B1C7CF38D00B69732 /* PeekShare.xcdatamodel */,
+			);
+			currentVersion = 694BEE9B1C7CF38D00B69732 /* PeekShare.xcdatamodel */;
+			path = PeekShare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 694BEE881C7CF38D00B69732 /* Project object */;
+}

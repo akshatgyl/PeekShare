@@ -126,7 +126,7 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
         didFinishPickingMediaWithInfo info: [String : AnyObject]) {
             picker.dismissViewControllerAnimated(true, completion: nil)
             selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage
-            //let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
+//            let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
             let size = CGSize(width: selectedImage!.size.width / 5, height: selectedImage!.size.height / 5)
             resizedImage = self.resize(selectedImage!, newSize: size)
             profilePic.image = selectedImage

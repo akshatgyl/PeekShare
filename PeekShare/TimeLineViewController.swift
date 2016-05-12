@@ -31,7 +31,6 @@ class TimeLineViewController: UIViewController, UITableViewDelegate, UITableView
         query.includeKey("author")
         query.limit = 20
         
-        // fetch data asynchronously
         query.findObjectsInBackgroundWithBlock { (media: [PFObject]?, error: NSError?) -> Void in
             if let media = media {
                 self.media = media
@@ -97,9 +96,6 @@ class TimeLineViewController: UIViewController, UITableViewDelegate, UITableView
         profileView.layer.cornerRadius = 20;
         profileView.layer.borderColor = UIColor(white: 0.7, alpha: 0.8).CGColor
         profileView.layer.borderWidth = 1;
-        
-        // Use the section number to get the right URL
-        // profileView.setImageWithURL(...)
 
         
         let media0 = media![section]
@@ -113,8 +109,6 @@ class TimeLineViewController: UIViewController, UITableViewDelegate, UITableView
         }
         
         headerView.addSubview(profileView)
-        
-        // Add a UILabel for the username here
         
         let label = UILabel(frame: CGRect(x: 60, y: 10, width: 200, height: 30))
         label.textColor = UIColor(red: 0, green: 0, blue: 255, alpha: 1)
